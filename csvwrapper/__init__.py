@@ -196,6 +196,9 @@ class DictReader(object):
 
     @property
     def fieldnames(self):
+        if self._fieldnames is None:
+            self._fieldnames = self._get_row()
+
         return self._fieldnames
 
     @fieldnames.setter
