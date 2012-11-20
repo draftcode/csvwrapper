@@ -197,7 +197,10 @@ class DictReader(object):
     @property
     def fieldnames(self):
         if self._fieldnames is None:
-            self._fieldnames = self._get_row()
+            try:
+                self._fieldnames = self._get_row()
+            except StopIteration:
+                pass
 
         return self._fieldnames
 
