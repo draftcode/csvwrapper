@@ -1,6 +1,5 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python
 # vim: fileencoding=utf-8
-from __future__ import unicode_literals
 from setuptools import setup, find_packages
 
 setup(

@@ -1,6 +1,4 @@
-Cloning https://github.com/github/gitignore.git to /home/draftcode/.gitignore-boilerplates
-Cloning into /home/draftcode/.gitignore-boilerplates...
-### /home/draftcode/.gitignore-boilerplates/Python.gitignore
+# Python.gitignore
 
 *.py[cod]
 
@@ -35,6 +33,4 @@ nosetests.xml
 
 #Mr Developer
 .mr.developer.cfg
-
-
 
